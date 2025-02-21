@@ -38,7 +38,7 @@ býður GitHub upp á verkfæri fyrir samvinnu og skipulagningu verkefna, eins o
 - Almennt er ókeypis virkni fyrir **public repos** en lokað fyrir **private repos**, nema með
   greiðsluáskrift.
 
-### GitHub Education
+### GitHub Education pakkinn
 
 Nemendur og akademískt starfsfólk geta fengið **GitHub Pro** áskrift með ókeypis **GitHub
 Copilot**.
@@ -50,9 +50,8 @@ Hægt er að setja **háskólanetfang sem secondary email** í stillingum GitHub
 Það þarf að taka mynd af gildu háskólakorti og senda inn til staðfestingar ásamt að vera tengt
 háskólaneti (t.d. eduroam eða nota VPN til að tengjast HÍ-neti).
 
-> **Nemendur** geta einnig fengið **ókeypis microcredential** í
->
-gegnum [GitHub Foundations Certificate](https://education.github.com/experiences/foundations_certificate).
+> **Nemendur** geta einnig fengið frítt **microcredential** í gegnum
+> [GitHub Foundations Certificate](https://education.github.com/experiences/foundations_certificate).
 
 > **Kennarar** geta sett upp **GitHub Classroom** fyrir verkefnastjórnun og
 > námskeið: [GitHub Classroom](https://classroom.github.com/).
@@ -61,11 +60,22 @@ gegnum [GitHub Foundations Certificate](https://education.github.com/experiences
 
 ### Setja upp Git
 
-- Sæktu og settu upp Git frá [git-scm.com](https://git-scm.com/).
-- Stilltu notendaupplýsingar með skipunum:
+Git er hægt að nota bæði í **skipanalínu (CLI)** og í **myndrænu viðmóti (GUI)**:
+
+- **Skipanalína (CLI)**: Sæktu og settu upp Git frá [git-scm.com](https://git-scm.com/) og notaðu
+  skipanir í `bash`, `cmd` eða `PowerShell`.
+- **GitHub Desktop**: Einföld leið fyrir byrjendur með myndrænt viðmót, hægt að sækja
+  frá [desktop.github.com](https://desktop.github.com/).
+- **Git innbyggt í IDE**:
+    - **VS Code**: Inniheldur Git viðbót sjálfgefið.
+    - **PyCharm**: Styður Git með samþættu stjórnborði.
+    - **Önnur IDE** eins og IntelliJ IDEA, Eclipse og Atom bjóða einnig upp á Git samþættingu.
+
+Stilltu notendaupplýsingar með skipunum:
+
   ```sh
   git config --global user.name "Nafn"
-  git config --global user.email "netfang@example.com"
+  git config --global user.email "notendanafn@hi.is"
   ```
 
 ### Búa til GitHub reikning
@@ -81,7 +91,6 @@ gegnum [GitHub Foundations Certificate](https://education.github.com/experiences
 - Gefðu verkefninu nafn, lýsingu og veldu public eða private.
     - **Public** er opinber geymsla sem allir geta séð.
     - **Private** er lokað geymsla sem aðeins þú og aðrir sem þú býður inn geta séð.
-- Fylgdu leiðbeiningunum til að bæta verkefninu við tölvuna þína með Git.
 
 > Hægt er að búa til geymslur beint í tölvunni með `git init`, en það er einfaldara að byrja á
 > GitHub og klóna geymsluna niður á tölvuna.
