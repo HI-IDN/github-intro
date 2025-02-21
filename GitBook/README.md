@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/github_header.png
+cover: .gitbook/assets/header.png
 coverY: 0
 layout:
   cover:
@@ -22,7 +22,9 @@ layout:
 Kennari: Helga Ingimundardóttir
 
 ## TL;DR
-Þetta GitBook skjölunarefni fjallar um hvernig á að nota Git og GitHub á skilvirkan hátt. Það inniheldur leiðbeiningar um grunnskipanir, best practices, og samvinnuaðferðir.
+
+Þetta GitBook skjölunarefni fjallar um hvernig á að nota **Git** og **GitHub** á skilvirkan hátt. Það
+inniheldur leiðbeiningar um grunnskipanir, best practices, og samvinnuaðferðir.
 
 ### Efnisyfirlit
 
@@ -61,4 +63,5 @@ Kennari: Helga Ingimundardóttir
   </tbody>
 </table>
 
-GitBook skjölunin er tengd við GitHub geymslu og hægt er að skoða hana á [GitBook](https://tungufoss.gitbook.io/github/).
+GitBook skjölunin er tengd við [GitHub geymslu](https://github.com/HI-IDN/github-intro) og hægt er
+að skoða hana á [GitBook](https://tungufoss.gitbook.io/github/).
