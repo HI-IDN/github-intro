@@ -29,70 +29,60 @@ býður GitHub upp á verkfæri fyrir samvinnu og skipulagningu verkefna, eins o
 
 ### Er GitHub ókeypis?
 
-- GitHub er **almennt ókeypis** fyrir alla notendur.
+- GitHub er **almennt ókeypis** fyrir alla notendur. Helsta virkni GitHub er opið fyrir alla, en
+  fyrir stærri verkefni og fyrirtæki er **GitHub Pro** með greiðsluáskrift.
 - **GitHub Education pakkinn** býður upp á **GitHub Pro**, sem inniheldur:
-    - **GitHub Copilot** (AI-aðstoð í forritun) ókeypis fyrir nemendur.
+    - **GitHub Copilot** (AI-aðstoð í forritun).
     - Meiri geymslupláss fyrir einkageymslur (private repos).
     - Aukna greiningu á kóða (advanced code insights).
+- Almennt er ókeypis virkni fyrir **public repos** en lokað fyrir **private repos**, nema með
+  greiðsluáskrift.
 
-## Frí GitHub aðgangur fyrir nemendur og akademískt starfsfólk
+### GitHub Education
 
-GitHub býður **frítt** akademískt aðgengi í gegnum [GitHub Education](https://github.com/education).
+Nemendur og akademískt starfsfólk geta fengið **GitHub Pro** áskrift með ókeypis **GitHub
+Copilot**.
 
-- Nemendur geta fengið **GitHub Pro** áskrift með ókeypis **GitHub Copilot**.
-- Til að fá aðgang þarf að skrá sig með **háskólanetfangi (`@hi.is`)** eða tengja það við GitHub
-  reikninginn.
-- Hægt er að setja **háskólanetfang sem secondary email** í stillingum GitHub reikningsins.
-- Nemendur geta einnig fengið **ókeypis microcredential** í
-  gegnum [GitHub Foundations Certificate](https://education.github.com/experiences/foundations_certificate).
-- Kennarar geta sett upp **GitHub Classroom** fyrir verkefnastjórnun og
-  námskeið: [GitHub Classroom](https://classroom.github.com/).
+Til að fá aðgang þarf að skrá sig með **háskólanetfangi (`@hi.is`)** eða tengja það við GitHub
+reikninginn.
+Hægt er að setja **háskólanetfang sem secondary email** í stillingum GitHub reikningsins.
+
+Það þarf að taka mynd af gildu háskólakorti og senda inn til staðfestingar ásamt að vera tengt
+háskólaneti (t.d. eduroam eða nota VPN til að tengjast HÍ-neti).
+
+> **Nemendur** geta einnig fengið **ókeypis microcredential** í
+>
+gegnum [GitHub Foundations Certificate](https://education.github.com/experiences/foundations_certificate).
+
+> **Kennarar** geta sett upp **GitHub Classroom** fyrir verkefnastjórnun og
+> námskeið: [GitHub Classroom](https://classroom.github.com/).
 
 ## Hvernig á að byrja?
 
-1. **Setja upp Git**
-    - Sæktu og settu upp Git frá [git-scm.com](https://git-scm.com/).
-    - Stilltu notendaupplýsingar með skipunum:
-      ```sh
-      git config --global user.name "Nafn"
-      git config --global user.email "netfang@example.com"
-      ```
+### Setja upp Git
 
-2. **Búa til GitHub reikning**
-    - Farðu á [GitHub](https://github.com/) og stofnaðu reikning.
-    - Tengdu háskólanetfangið þitt í [stillingum GitHub](https://github.com/settings/emails).
-    - Skráðu þig í [GitHub Education](https://education.github.com/) til að fá ókeypis aðgang að
-      GitHub Pro.
+- Sæktu og settu upp Git frá [git-scm.com](https://git-scm.com/).
+- Stilltu notendaupplýsingar með skipunum:
+  ```sh
+  git config --global user.name "Nafn"
+  git config --global user.email "netfang@example.com"
+  ```
 
-3. **Búa til fyrsta geymsluna (repository)**
-    - Smelltu á **New repository** í GitHub.
-    - Gefðu verkefninu nafn, lýsingu og veldu public eða private.
-    - Fylgdu leiðbeiningunum til að bæta verkefninu við tölvuna þína með Git.
+### Búa til GitHub reikning
 
-4. **Grunnskipanir í Git**
-    - Klóna geymslu:
-      ```sh
-      git clone https://github.com/your-username/your-repo.git
-      ```
-    - Bæta skrá við Git:
-      ```sh
-      git add filename
-      ```
-    - Skrá breytingu:
-      ```sh
-      git commit -m "Lýsing á breytingu"
-      ```
-    - Sækja nýjustu breytingar úr GitHub:
-      ```sh
-      git pull origin main
-      ```
-    - Ýta breytingum á GitHub:
-      ```sh
-      git push origin main
-      ```
-    - Skoða breytingasögu verkefnis:
-      ```sh
-      git log --oneline --graph --all
-      ```
+- Farðu á [GitHub](https://github.com/) og stofnaðu reikning.
+  Tengdu háskólanetfangið þitt í [stillingum GitHub](https://github.com/settings/emails).
+  Skráðu þig í [GitHub Education](https://education.github.com/) til að fá ókeypis aðgang að
+  GitHub Pro.
 
-Með þessum grunnatriðum geturðu hafið vinnu með Git og GitHub á öruggan og skilvirkan hátt! 🚀
+### Búa til fyrsta geymsluna (repository)
+
+- Smelltu á **New repository** í [GitHub](https://github.com/new).
+- Gefðu verkefninu nafn, lýsingu og veldu public eða private.
+    - **Public** er opinber geymsla sem allir geta séð.
+    - **Private** er lokað geymsla sem aðeins þú og aðrir sem þú býður inn geta séð.
+- Fylgdu leiðbeiningunum til að bæta verkefninu við tölvuna þína með Git.
+
+> Hægt er að búa til geymslur beint í tölvunni með `git init`, en það er einfaldara að byrja á
+> GitHub og klóna geymsluna niður á tölvuna.
+
