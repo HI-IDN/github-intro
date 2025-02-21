@@ -1,0 +1,1 @@
+Placeholder fyrir god_vinnubrogd/pull_requests.md

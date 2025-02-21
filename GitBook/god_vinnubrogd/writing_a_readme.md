@@ -1,0 +1,1 @@
+Placeholder fyrir god_vinnubrogd/writing_a_readme.md

@@ -1,0 +1,1 @@
+Placeholder fyrir tengingar/overleaf_git_sync.md

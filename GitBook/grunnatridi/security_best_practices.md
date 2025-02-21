@@ -1,0 +1,1 @@
+Placeholder fyrir grunnatridi/security_best_practices.md

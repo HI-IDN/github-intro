@@ -1,0 +1,1 @@
+Placeholder fyrir god_vinnubrogd/git_branches.md
