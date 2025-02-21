@@ -3,7 +3,7 @@
 
 ## Grunnatriði í GitHub
 * [Hvað er GitHub?](grunnatridi/what_is_github.md)
-* [Grunnskipanir í Git](grunnatridi/git_commands.md)
+* [Skipanir í Git](grunnatridi/git_commands.md)
 * [Öryggi í GitHub](grunnatridi/security_best_practices.md)
 * [Notkun á .gitignore](grunnatridi/gitignore.md)
 
