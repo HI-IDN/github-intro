@@ -66,12 +66,12 @@ Git er hægt að nota bæði í **skipanalínu (CLI)** og í **myndrænu viðmó
   skipanir í `bash`, `cmd` eða `PowerShell`.
 - **GitHub Desktop**: Einföld leið fyrir byrjendur með myndrænt viðmót, hægt að sækja
   frá [desktop.github.com](https://desktop.github.com/).
-- **Git innbyggt í IDE**:
-    - **VS Code**: Inniheldur Git viðbót sjálfgefið.
-    - **PyCharm**: Styður Git með samþættu stjórnborði.
-    - **Önnur IDE** eins og IntelliJ IDEA, Eclipse og Atom bjóða einnig upp á Git samþættingu.
+- **Git innbyggt í IDE**: Í flestum forritunarumhverfum er native stuðningur við Git, til
+  dæmis er Git innbyggt sem *extension* í Visual Studio Code, PyCharm, IntelliJ IDEA og RStudio .
+  Helsti kosturinn er að þessi IDE bjóða upp á samþætt stjórnborð fyrir Git, þannig þú getur
+  notað GUI eða CLI eftir hvað þér hentar best hverju sinni.
 
-Stilltu notendaupplýsingar með skipunum:
+Stilltu notendaupplýsingar með skeljar skipunum:
 
   ```sh
   git config --global user.name "Nafn"
@@ -80,12 +80,13 @@ Stilltu notendaupplýsingar með skipunum:
 
 ### Búa til GitHub reikning
 
-- Farðu á [GitHub](https://github.com/) og stofnaðu reikning.
-  Tengdu háskólanetfangið þitt í [stillingum GitHub](https://github.com/settings/emails).
-  Skráðu þig í [GitHub Education](https://education.github.com/) til að fá ókeypis aðgang að
-  GitHub Pro.
+Farðu á [GitHub](https://github.com/) og stofnaðu reikning.
+Tengdu háskólanetfangið þitt í [stillingum GitHub](https://github.com/settings/emails) (þarf
+ekki að vera primary netfang).
+Skráðu þig í [GitHub Education](https://education.github.com/) til að fá ókeypis aðgang að
+GitHub Pro.
 
-### Búa til fyrsta geymsluna (repository)
+### Búa til fyrstu geymsluna (repository)
 
 - Smelltu á **New repository** í [GitHub](https://github.com/new).
 - Gefðu verkefninu nafn, lýsingu og veldu public eða private.
