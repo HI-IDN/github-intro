@@ -44,7 +44,7 @@ fyrir útgáfustýringu.
 - Veldu **branch** (t.d. `main`). Ef branch-ið er ekki til, verður það búið til sjálfkrafa.
 - Gakktu úr skugga um að rétt vinnumappa **project directory** sé valin (sjálfgefið `./`). Þar
   sem GitBook birtir `README` skrána í rót heimasíðunnar, þá er ágætt að hafa GitBook skrárnar í
-  sér undirmöppu (t.d. `./docs`), þá er hægt að hafa aðra `README` skrá í rótinni um hvernig 
+  sér undirmöppu (t.d. `./docs`), þá er hægt að hafa aðra `README` skrá í rótinni um hvernig
   hægt er að leggja til við verkefnið (t.d. `CONTRIBUTING.md`).
 - Veldu hvort þú viljir að *fyrsta* samstillingin sé sjálfvirkt gerð út frá GitHub eða GitBook.
 
@@ -58,9 +58,10 @@ fyrir útgáfustýringu.
 
 ## Dæmi um GitBook verkefni
 
-### 📖 GitHub Inngangur
+### 📖 GitHub fyrir byrjendur
 
-➡️ [GitHub Intro](https://github.com/HI-IDN/github-intro)
+➡️ [GitHub Intro](https://github.com/HI-IDN/github-intro) (þessar glósur) 
+og undirliggjandi [kóði](https://github.com/HI-IDN/github-intro)
 
 - Skjölun fyrir grunnatriði Git og GitHub.
 - Fjallar um branches, pull requests, commit skilaboð og fleiri vinnubrögð.
@@ -68,13 +69,14 @@ fyrir útgáfustýringu.
 ### 📖 Upplýsingaverkfræði
 
 ➡️ [IDN302G-GitBook](https://github.com/HI-IDN/IDN302G-GitBook)
+og undirliggjandi [kóði](https://github.com/HI-IDN/IDN320M-GitBook/)
 
 - Kennsluefni um upplýsingaverkfræði.
 - Inniheldur dæmi og útskýringar um SQL forritun.
 
 ### 📖 Hermun
 
-➡️ [IDN403M-GitBook](https://github.com/HI-IDN/IDN403M-GitBook)
+➡️ [IDN403M-GitBook](https://github.com/HI-IDN/IDN403M-GitBook) og undirliggjandi [kóði](https://github.com/HI-IDN/IDN403M-GitBook/)
 
 - Glósur og efni fyrir námskeið um hermun.
 - Fjallar um hermilíkön, stakræna atburðahermun og greiningu niðurstaðna.
